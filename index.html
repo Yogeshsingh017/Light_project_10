@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Light Bulb</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+        <p>Happy Coding! :)</p>
+        <p style=color:white;>Turn me on!</p>
+            <div id=light>
+                <div id=someName>
+                     <div id=switchMe onclick=change()>[]</div> 
+                </div>
+            </div>   
+        </center>
+
+        <script>
+            alert("Created By Yogesh Singh @@@ Light Bulb");
+            function light(){
+    return document.getElementById("light");
+}
+
+
+function change(){
+    if (light().style.backgroundColor=="yellow"){
+        light().style.backgroundColor="#444";
+        light().style.boxShadow="0px 0px 50px #222";
+        document.body.style.backgroundColor="#333";
+        alert("Turn Off ");
+    }
+    
+    else{
+        light().style.backgroundColor="yellow";
+        document.body.style.backgroundColor="gray";
+        light().style.boxShadow="0px 0px 30px yellow";
+        alert("Turn On ");
+    }
+}
+
+//This is the proof that small codes can be popular too.   :)
+        </script>
+    </body>
+</html>

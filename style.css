@@ -1,0 +1,40 @@
+body{
+    background-color:#333;
+    transition:all 0.5s;
+}
+p{
+    font-size:200%;
+    font-family:fantasy;
+    color:#333;
+}
+#light{
+    width:100px;
+    background-color:#444;
+    height:150px;
+    top:50px;
+    border-radius:100% 100% 50% 50%;
+    transition:all 0.1s;
+    position:relative;
+    box-shadow:0px 0px 50px #222;
+  
+}
+
+#someName{
+    width:110px;
+    height:150px;
+    background-color:grey;
+    transform:translate(-5%, 70%);
+    border-radius:10px 10px 100% 100%;
+    border: 2px solid black;
+}
+#switchMe{
+    background-color:#222;
+    width:40px;
+    border-radius:40%;
+    height:40px;
+    transform:translate(0% ,100%);
+    border:3px solid #444;
+    
+}
+
+
